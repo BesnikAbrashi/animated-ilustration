@@ -1,0 +1,20 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Besnik Abrashi
+Created: May 2018
+Notes:	 Hand coded for Datenwerk
+
+*/
+
+html {
+    font-size: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
