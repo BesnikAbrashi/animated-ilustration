@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Personal website of a Web Developer from Kosovo named Besnik Abrashi. This site shows Besnik's personal information, his portfolio, his education, his skills, social accounts and contact information. Besnik Abrashi is available for hire as a freelancer.">
+        <meta name="description" content="An exercise that animates the ilustration from Besnik Abrashi for Datenwerk.">
         <meta name="author" content="Besnik Abrashi">
         
         <!-- Bootstrap -->
@@ -20,25 +20,51 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        
         <!-- stylesheet -->
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        <div class="container text-center">
+        <div class="container">
             <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                    <div class="page-header text-success">
+                <div class="col-xs-12">
+                    <div class="page-header text-center text-success">
                         <h1>Unsere Kompetenzen <br/><small>An exercise for Datenwerk</small></h1>
                     </div>
+                    <div class="row" id="ilustration">
+                        <div class="col-xs-4 text-left left-links">
+                            <p><a href="https://www.datenwerk.de/kompetenzen/#digital" target="_blank">Digital</a><span class="line1"></span></p>
+                            <p><a href="https://www.datenwerk.de/kompetenzen/#multimedia" target="_blank">Multimedia</a><span class="line2"></span></p>
+                            <p><a href="https://www.datenwerk.de/kompetenzen/#e-commerce" target="_blank">E-Commerce</a><span class="line3"></span></p>
+                        </div>
+                        <div class="col-xs-4 text-center">
+<!--                            <div id="outer-circle">
+                                <div id="text-circle">360&deg; <br> MARKEN <br> ERLEBNIS</div>
+                            </div>-->
+                            <div class="circle">
+                                
+                                <ul class="lines">
+                                   <li></li>
+                                   <li></li>
+                                   <li></li>
+                                </ul>
+                                <div id="text-circle">360&deg; <br> MARKEN <br> ERLEBNIS</div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 text-right">
+                            <p><span class="line4"></span><a href="https://www.datenwerk.de/kompetenzen/#branding" target="_blank">Branding</a></p>
+                            <p><span class="line5"></span><a href="https://www.datenwerk.de/kompetenzen/#design" target="_blank">Design</a></p>
+                            <p><span class="line6"></span><a href="https://www.datenwerk.de/kompetenzen/#messe" target="_blank">Messe</a></p>
+                        </div>
+                    </div>                    
                 </div>
-                <div class="col-md-1"></div>
             </div>
         </div>
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="assets/js/jquery-1.12.4.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
     </body>
 </html>
